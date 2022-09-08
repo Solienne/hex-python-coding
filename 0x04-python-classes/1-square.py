@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Creating class Square"""
+"""Creating a class Square"""
 
 
 class Square:
@@ -8,8 +8,8 @@ class Square:
         """initializes attributes
         Args:
             size (int): size of the square
-        See:
-            ``Args`` section doesn't include `self` parameter
+        Note:
+            ``Args`` section don't include `self` parameter
         Raises:
             TypeError: if `size` isn't an integer
             ValueError: if `size` is less than 0
@@ -18,4 +18,4 @@ class Square:
             raise TypeError("size must be an integer")
         if (size < 0):
             raise ValueError("size must be >= 0")
-        self.__size = size 
+        self.__size = size
